@@ -25,8 +25,8 @@ from typing import Any, List, Set, Tuple
 from urllib import parse
 from uuid import UUID, uuid4
 
-from pyroxy import Proxy, ProxyChecker, ProxyType, ProxyUtiles
-from pyroxy import Tools as ProxyTools
+from PyRoxy import Proxy, ProxyChecker, ProxyType, ProxyUtiles
+from PyRoxy import Tools as ProxyTools
 from certifi import where
 from cloudscraper import create_scraper
 from dns import resolver
